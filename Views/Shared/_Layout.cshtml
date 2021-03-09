@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap-->
+    <title>@ViewData["Title"] - BookStore</title>
+    <link href="~/css/Bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <!--title-->
+    <h1>
+        Online Book Store
+    </h1>
+    <vc:navigation-menu />
+
+
+    <div>
+        @RenderBody()
+    </div>
+
+</body>
+</html>

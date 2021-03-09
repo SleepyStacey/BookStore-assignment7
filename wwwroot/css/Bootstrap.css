@@ -1,0 +1,46 @@
+﻿body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    color: darkred;
+    border: 4px solid Darkred;
+    text-decoration: underline;
+}
+
+#container h4 {
+    text-indent: 180px;
+    color: olive;
+    text-decoration: underline;
+}
+
+#container p {
+    text-indent: 180px;
+    border: 1px solid black;
+    outline: grey solid 1px;
+    margin: auto;
+    padding: 20px;
+}
+
+.btn{
+    padding: 10px;
+}
+
+.btn-group pull-right m-1{
+    padding: 10px;
+}
+
+.btn:hover {
+    color: darkred;
+}
+
+.btn-group pull-right m-1:hover{
+    color:darkred;
+}
+
+
+
+
+
