@@ -72,23 +72,8 @@ body {
 }
 
 
-h1 {
-    text-align: center;
-    color: darkred;
-    border: 3px solid Darkred;
-    text-decoration: underline;
-}
-
-#container h4 {
-    text-indent: 180px;
-    color: olive;
-    text-decoration: underline;
-}
-
-#container p {
-    text-indent: 180px;
-    border: 2px solid black;
-    outline: olive solid 10px;
-    margin: auto;
-    padding: 20px;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
